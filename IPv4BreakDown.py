@@ -1,4 +1,3 @@
-
 valid_range = [0,128,192,224,240,248,252,254,255]
 network_addr = [0,0,0,0]
 def ipv4_chk(temp):
