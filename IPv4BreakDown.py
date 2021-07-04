@@ -45,7 +45,6 @@ while True:
 bin_ip = [bin(ipv4[i])[2:].zfill(8) for i in range(0,4)]
 print(f'\nAddress:\t {ipv4[0]}.{ipv4[1]}.{ipv4[2]}.{ipv4[3]}\t{bin_ip[0]}.{bin_ip[1]}.{bin_ip[2]}.{bin_ip[3]}')
 
-
 #Prefix
 prefix = 0
 for i in range(0,4):
